@@ -18,5 +18,5 @@
 //objects
 
 console.log(typeof"Akumar")
-console.log(typeof(null));
-console.log(typeof(undefined));
+console.log(typeof(null)); //output is object
+console.log(typeof(undefined)); // output is undefined
