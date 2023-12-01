@@ -38,3 +38,29 @@ console.log("Hllo Eorld");
 console.log(typeof heroes);
 console.log(typeof myObj);
 console.log(typeof myFunction);
+
+
+
+//**********************************
+
+
+let myYoutubeName = "Akashprasad"
+
+let anotherName = myYoutubeName
+anotherName= "chaiaurcode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email= "akash@rediffmail.com"
+userTwo.upi= "two@axis"
+
+console.log(userOne);
+console.log(userTwo);
