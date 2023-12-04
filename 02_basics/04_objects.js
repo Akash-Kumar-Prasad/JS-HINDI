@@ -91,3 +91,16 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 //hasOwnPropert() gives result as boolean value, it checks if a key is there or not
+
+//******DESTRUCTURING***** */
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor: "hitesh choudhary"
+}
+
+//course.courseInstructor > this can be used to access the values but instead destructuring is used here and anither name is also given
+
+const {courseInstructor: instructor}= course
+console.log(instructor);
