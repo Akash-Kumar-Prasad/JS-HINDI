@@ -32,4 +32,3 @@ map.set('FR', 'France')
 for (const key in map) {
   console.log(key);//cannot iterate
 }
-
